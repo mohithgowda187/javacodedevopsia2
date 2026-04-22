@@ -7,21 +7,21 @@ public class CalculatorTest {
 
     @Test
     void testAdd() {
-        assertEquals(5, calc.add(2, 3));
+        assertEquals(15, calc.add(10, 5));   // matches main method values
     }
 
     @Test
     void testSubtract() {
-        assertEquals(1, calc.subtract(3, 2));
+        assertEquals(5, calc.subtract(10, 5));
     }
 
     @Test
     void testMultiply() {
-        assertEquals(6, calc.multiply(2, 3));
+        assertEquals(50, calc.multiply(10, 5));
     }
 
     @Test
     void testDivide() {
-        assertEquals(2, calc.divide(4, 2));
+        assertEquals(2, calc.divide(10, 5));
     }
 }
